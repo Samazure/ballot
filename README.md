@@ -3,4 +3,4 @@
 **TO BUILD A BETTER BALLOT**     
 an interactive guide to alternative voting systems
 
-**[play/read it here](http://ncase.me/ballot)**
+**[play/read it here](https://samazure.github.io/ballot/)**
