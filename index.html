@@ -10,24 +10,24 @@
 	<link rel="icon" type="image/png" href="favicon.png">
 
 	<!-- Schema.org markup for Google+ -->
-	<meta itemprop="name" content="To Build a Better Ballot">
-	<meta itemprop="description" content="an interactive guide to alternative voting systems">
+	<meta itemprop="name" content="Para Construir una Mejor Votación">
+	<meta itemprop="description" content="una guía interactiva de sistemas de votación alternativos">
 	<meta itemprop="image" content="http://ncase.me/ballot/social/thumbnail.png">
 
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@ncasenmare">
-	<meta name="twitter:title" content="To Build a Better Ballot">
-	<meta name="twitter:description" content="an interactive guide to alternative voting systems">
+	<meta name="twitter:title" content="Para Construir una Mejor Votación">
+	<meta name="twitter:description" content="una guía interactiva de sistemas de votación alternativos">
 	<meta name="twitter:creator" content="@ncasenmare">
 	<meta name="twitter:image" content="http://ncase.me/ballot/social/thumbnail.png">
 
 	<!-- Open Graph data -->
-	<meta property="og:title" content="To Build a Better Ballot">
+	<meta property="og:title" content="Para Construir una Mejor Votación">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="http://ncase.me/ballot/">
 	<meta property="og:image" content="http://ncase.me/ballot/social/thumbnail.png">
-	<meta property="og:description" content="an interactive guide to alternative voting systems">
+	<meta property="og:description" content="una guía interactiva de sistemas de votación alternativos">
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/index.css">
@@ -60,67 +60,64 @@ THE SPOILER EFFECT
 
 <div class="words">
 
-	<p>No, esto no es sobre las elecciones del 2016 en E.U.A. Bueno, no <em>sólo</em> sobre eso.</p>
+	<p>No, esto no es sobre las elecciones del 2016 en E.U.A. Bueno, no <em>solamente</em> sobre eso.</p>
 	
 	<p>Primero, tengo que explicar un extraño fallo en nuestro sistema de votación.
 	Digamos que hay dos candidatos, Carlos Cuadrado <img src="play/img/square.png"/> y Triana Triángulo <img src="play/img/triangle.png"/>, en un par de ejes políticos. (por ejemplo, &ldquo;izquierda vs. derecha&rdquo; y &ldquo;globalista vs. nacionalista&rdquo;) Digamos también que hay un votante <img src="play/img/voter.png"/> que simplemente vota por quien sea cuya posición política sea más cercana. ¿Cómo se vería eso?</p>
-
-	<p>First, I need to explain a weird glitch in our voting system.
-	Let's say there's two candidates, Steven Square <img src="play/img/square.png"/> and Tracy Triangle <img src="play/img/triangle.png"/>, on a couple political axes. (for example, &ldquo;left vs. right&rdquo; and &ldquo;globalist vs. nationalist&rdquo;) Let's also say there's a voter <img src="play/img/voter.png"/> who simply votes for whoever's political position is closest. What would that look like?</p>
 
 </div>
 <div class="sim-intro">
 
 	<p class="caption" style="margin-top:30px">
-		<b><span style="font-size:2.5em;">click &amp; drag</span><br>the candidates and the voter:</b>
+		<b><span style="font-size:2.5em;">haz click &amp; arrastra</span><br>los candidatos y al votante:</b>
 	</p>
 	<iframe src="play/model1.html" width="305" height="360" scrolling="no"></iframe>
 
 </div>
 <div class="words">
 
-	<p>It's a tough choice. Triangle's got some sharp points, but Square understands more sides! Alas, in the end, you can only vote for one.</p>
+	<p>Es una decisión difícil. ¡Triángulo tiene puntos muy marcados, pero Cuadrado entiende más lados! Ay, al final, sólo puedes votar por uno.</p>
 
-	<p>Of course, there's more than just one voter in an election. Let's simulate what an election would look like with 100+ voters.</p>
+	<p>Por supuesto, hay más de un solo votante en una elección. Vamos a simular cómo se vería una elección con 100+ votantes.</p>
 
 </div>
 <div class="sim-intro">
 
 	<p class="caption">
-		<b>drag the candidates &amp; voter<span class="underline">s</span> around.<br>(to move voters, drag the <em>middle</em> of the crowd)<br>watch how that changes the election:</b>
+		<b>arrastra a los candidatos &amp; a los votante<span class="underline">s</span>.<br>(para mover a los votantes, arrastre el <em>centro</em> de la multitud)<br>observa cómo eso cambia la elección:</b>
 	</p>
 	<iframe src="play/model2.html" width="320" height="400" scrolling="no"></iframe>
 
 </div>
 <div class="words">
 
-	<p>Now let's consider a different election. Say Tracy Triangle is <em>already</em> beating Steven Square in the polls, and a third candidate, Henry Hexagon <img src="play/img/hexagon.png"/>, sees this. (Hexagon's supporters like how he tackles problems from more angles) Inspired by her success, Hexagon swoops in and takes a political position close to Triangle's.</p>
+	<p>Ahora vamos a considerar una elección diferente. Digamos que Triana Triángulo está <em>actualmente</em> venciendo a Carlos Cuadrado en las encuestas, y un tercer candidato, Hector Hexágono <img src="play/img/hexagon.png"/>, ve esto. (a los seguidores de Hexágono les agrada como enfrenta problemas desde más ángulos) Inspirado por su éxito, Hexágono se abalanza y toma una posición política cercana a la de Triángulo.</p>
 
-	<p>Now, you'd think giving the voters more of what they want should result in a <em>better</em> choice, or at least, not result in a <em>worse</em> choice, right? Well...</p>
+	<p>Ahora, seguro pensarás que darle a los votantes más de lo que quieren resultará en una <em>mejor</em> elección, o al menos, no resultar en una <em>peor</em> elección, ¿cierto? Bueno...</p>
 
 </div>
 <div class="sim-intro">
 
 	<p class="caption">
 		<b>
-		at first, <img src="play/img/triangle.png"> beats <img src="play/img/square.png">.<br>
-		drag <img src="play/img/hexagon.png"> to <i>just under</i> <img src="play/img/triangle.png">,<br>
-		and see what happens:</b>
+		al inicio, <img src="play/img/triangle.png"> vence a <img src="play/img/square.png">.<br>
+		arrastra a <img src="play/img/hexagon.png"> <i>justo debajo</i> de <img src="play/img/triangle.png">,<br>
+		y observa lo que sucede:</b>
 	</p>
 	<iframe src="play/model3.html" width="320" height="460" scrolling="no"></iframe>
 
 </div>
 <div class="words">
 
-	<p>That's right. Steven Square, our <em>least</em> popular candidate, now wins! This is because when you have two good candidates, they "steal" votes from each other, letting a bad third candidate win.</p>
+	<p>Así es. Carlos Cuadrado, nuestro candidato <em>menos</em> popular, ¡ahora gana! Esto es porque cuando tienes dos candidatos buenos, ellos se "roban" votos el uno al otro, dejando que un mal tercer candidato gane.</p>
 
-	<p>This is called <strong>the spoiler effect.</strong> The most famous real-world example of this was in 2000, when Ralph Nader &quot;stole&quot; votes from Al Gore, letting George Bush win. And though the spoiler effect didn't play a big role in 2016, its impact could still be felt.</p>
+	<p>Esto se llama <strong>el efecto alerón (o efecto spoiler).</strong> El ejemplo más famoso de esto en el mundo real fue en el 2000, cuando Ralph Nader &quot;robó&quot; votos de Al Gore, dejando que George Bush gane. Y aunque el efecto alerón no jugó un gran papel en el 2016, sus impactos aún se pueden sentir.</p>
 
-	<p>In the Republican primary, one anti-establishment nominee, Trump, ran against <em>sixteen</em> GOP establishment nominees, who all "stole" votes from each other, letting Trump grab the nomination, <em>easily</em>. As for the Democratic primary, fear of splitting the vote prevented Sanders from running as independent. And to cap it all off, there was always the worry that other candidates like Johnson, Stein, and McMullin could spoil the election.</p>
+	<p>En la primaria Republicana, un candidato anti-establecimiento, Trump, corrió contra <em>dieciséis</em> candidatos de el GOP establecimiento, quienes todos "robaron" votos de los otros, dejando que Trump tome la candidatura, <em>fácilmente</em>. En cuanto a la primaria Demócrata, el miedo de dividir los votos le impidió a Sanders correr como independiente. Y para sumarle, siempre hubo una preocupación de que otros candidatos como Johnson, Stein y McMullin pudieran arruinar la elección.</p>
 
-	<p>But again, this is <em>not</em> about the 2016 U.S. election.</p>
+	<p>Pero de nuevo, esto <em>no</em> es sobre la elección del 2016 en E.U.A.</p>
 
-	<p><strong>This is about designing a democracy that people can <em>trust</em>.</strong></p>
+	<p><strong>Esto es sobre diseñar una democracia en la cual la gente pueda <em>confiar</em>.</strong></p>
 
 	<p>Despite so much hoopla around the 2016 election, a full <em>half</em> of Americans did not vote. Even of those who voted for Clinton/Trump, <a href="http://www.nytimes.com/interactive/2016/11/08/us/politics/election-exit-polls.html">20% of them said their candidates were untrustworthy</a>, <em>and voted for them anyway.</em> <a href="https://www.theatlantic.com/international/archive/2016/07/trust-institutions-trump-brexit/489554/">And around the world, people's trust in their governments</a> – or the trust<em>worthiness</em> of their governments – has never been lower. It's more than America at stake. It's <em>every democracy in the world.</em></p>
 
